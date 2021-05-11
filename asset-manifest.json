@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ReactProfile/static/css/main.bab0b925.chunk.css",
-    "main.js": "/ReactProfile/static/js/main.f8eefc11.chunk.js",
-    "main.js.map": "/ReactProfile/static/js/main.f8eefc11.chunk.js.map",
+    "main.js": "/ReactProfile/static/js/main.ee9df51a.chunk.js",
+    "main.js.map": "/ReactProfile/static/js/main.ee9df51a.chunk.js.map",
     "runtime-main.js": "/ReactProfile/static/js/runtime-main.ed5c6ca0.js",
     "runtime-main.js.map": "/ReactProfile/static/js/runtime-main.ed5c6ca0.js.map",
     "static/js/2.9d8e793a.chunk.js": "/ReactProfile/static/js/2.9d8e793a.chunk.js",
@@ -15,12 +15,13 @@
     "static/media/budget.c59d15ea.png": "/ReactProfile/static/media/budget.c59d15ea.png",
     "static/media/dashboard.a8d30204.png": "/ReactProfile/static/media/dashboard.a8d30204.png",
     "static/media/employee_directory4.6923e5be.png": "/ReactProfile/static/media/employee_directory4.6923e5be.png",
+    "static/media/weWatchHome1.e79e4772.png": "/ReactProfile/static/media/weWatchHome1.e79e4772.png",
     "static/media/workDay.2a61f3cf.png": "/ReactProfile/static/media/workDay.2a61f3cf.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ed5c6ca0.js",
     "static/js/2.9d8e793a.chunk.js",
     "static/css/main.bab0b925.chunk.css",
-    "static/js/main.f8eefc11.chunk.js"
+    "static/js/main.ee9df51a.chunk.js"
   ]
 }
