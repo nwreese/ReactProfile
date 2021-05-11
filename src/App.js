@@ -130,6 +130,12 @@ class App extends Component {
         "portfolio": {
           "projects": [
             {
+              "title": "weWatch",
+              "category": "MERN app allowing users to search and save their favorite shows",
+              "image": "weWatchImg",
+              "url": "https://wewatch5000.herokuapp.com/"
+            },
+            {
               "title": "Treasure Trove",
               "category": "App designed for treasure hunters to save the locations of their finds.",
               "image": "TreasureImg",

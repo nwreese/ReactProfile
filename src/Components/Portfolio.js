@@ -8,6 +8,7 @@ import DashboardImg from '../images/portfolio/dashboard.png';
 import EmployeeImg from '../images/portfolio/employee_directory4.png';
 import WorkImg from '../images/portfolio/workDay.png';
 import TreasureImg from '../images/portfolio/Treasure_Trove.jpg';
+import weWatchImg from '../images/portfolio/weWatchHome1.png';
 
 const PortfolioImages = {
   AreWeThereYetImg: AreWeThereYetImg,
@@ -15,7 +16,8 @@ const PortfolioImages = {
   DashboardImg: DashboardImg,
   EmployeeImg: EmployeeImg,
   WorkImg: WorkImg,
-  TreasureImg: TreasureImg
+  TreasureImg: TreasureImg,
+  weWatchImg: weWatchImg
 }
 
 class Portfolio extends Component {
