@@ -42,7 +42,27 @@ class Portfolio extends Component {
         </div>
       })
     }
-
+const watch = () => {
+  window.location.href="https://github.com/nwreese/WeWatch"
+}
+const treasure = () => {
+  window.location.href="https://github.com/nwreese/Treasure__Trove"
+}
+const awty = () => {
+  window.location.href="https://github.com/nwreese/Are_We_There_Yet"
+}
+const work = () => {
+  window.location.href="https://github.com/nwreese/Workout-Tracker"
+}
+const schedule = () => {
+  window.location.href="https://github.com/nwreese/Work_Day_Scheduler"
+}
+const employee = () => {
+  window.location.href="https://github.com/nwreese/Employee_Directory"
+}
+const budget = () => {
+  window.location.href="https://github.com/nwreese/Workout-Tracker"
+}
     return (
       <section id="portfolio">
 
@@ -51,9 +71,19 @@ class Portfolio extends Component {
          <div className="twelve columns collapsed">
 
             <h1>Check Out Some of My Works.</h1>
-
+            <div className="twelve colums collapsed">
+            <button className="we-btn"onClick={watch}>weWatch</button>
+            <button className="treasure-btn"onClick={treasure}>Treasure Trove</button>
+            <button className="awty-btn"onClick={awty}>Are We There Yet</button>
+            <button className="work-btn"onClick={work}>Workout Dashboard</button>
+            </div>
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                 {projects}
+            </div>
+            <div>
+            <button className="schedule-btn"onClick={schedule}>Work Day Scheduler</button>
+            <button className="employee-btn"onClick={employee}>Employee Directory</button>
+            <button className="budget-btn"onClick={budget}>Budget Tracker</button>
             </div>
           </div>
       </div>

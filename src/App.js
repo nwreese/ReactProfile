@@ -33,15 +33,15 @@ class App extends Component {
         "main": {
           "name": "Nick Reese",
           "occupation": "Full Stack Web Developer",
-          "description": "I am a musician currently enrolled in the Full Stack Web Development boot camp at Case Western Reserve University, powered by Trilogy",
+          "description": "I'm also a musician and recent graduate from Case Western Reserve Universities coding boot camp with a certificate in Full Stack Web Development",
           "image": "profilePic.jpg",
-          "bio": "I am comfortable using Node, Express, JavaScript, API's, AJAX, HTML, CSS, React, Mongo, MySQL, PWA's and Handlebars. In my free time I enjoy writing and performing music live, both solo and with a band. I like to go kayaking, hiking and also enjoy shooting photos with my Polaroid. I am also a dog dad to a cockapoo named Lamb.",
+          "bio": "I am comfortable using Node, Express, JavaScript, React, API's, AJAX, HTML, CSS, React, Mongo, MySQL, PWA's and Handlebars. In my free time I enjoy writing and performing music live, both solo and with a band. I like to go kayaking, hiking and also enjoy shooting photos with my Polaroid. I am also a dog dad to a cockapoo named Lamb.",
           "contactmessage": "Please contact me via email or phone.",
           "email": "nwreese@kent.edu",
           "phone": "330-388-4965",
           "address": {
             "street": "(378 E Cassell Ave)",
-            "city": "(Barberton)",
+            "city": "Barberton",
             "state": "(Ohio)",
             "zip": "(44203)"
           },
@@ -98,34 +98,7 @@ class App extends Component {
               "years": "March 2014 - March 2020",
               "description": "Was responsible for prep as well as cold food storage and ordering."
             }
-                 ],
-          "skills": [
-            {
-              "name": "Git",
-              "level": "70%"
-            },
-          
-            {
-              "name": "ReactJs",
-              "level": "75%"
-            },
-            {
-              "name": "CSS",
-              "level": "50%"
-            },
-            {
-              "name": "HTML5",
-              "level": "80%"
-            },
-            {
-              "name": "MySQL",
-              "level": "50%"
-            },
-            {
-              "name": "MongoDB",
-              "level": "80%"
-            }
-          ]
+                 ]
         },
         "portfolio": {
           "projects": [
@@ -139,13 +112,13 @@ class App extends Component {
               "title": "Treasure Trove",
               "category": "App designed for treasure hunters to save the locations of their finds.",
               "image": "TreasureImg",
-              "url": "https://github.com/nwreese/Treasure__Trove"
+              "url": "https://jordanrantucci.github.io/Treasure_Trove/"
             },
             {
               "title": "Are We There Yet?",
               "category": "Travel planning app to help friends organize and plan ahead.",
               "image": "AreWeThereYetImg",
-              "url": "https://github.com/nwreese/Are_We_There_Yet"
+              "url": "https://arewethereyet.herokuapp.com/"
             },
             {
               "title": "Workout Tracker",
@@ -157,7 +130,7 @@ class App extends Component {
               "title": "Work Day Scheduler",
               "category": "Allows user to save events in each hour with colors changing depending on past, present, future.",
               "image": "WorkImg",
-              "url": "https://github.com/nwreese/Work_Day_Scheduler"
+              "url": "https://nwreese.github.io/Work_Day_Scheduler/"
             },
             {
               "title": "Employee Directory",
@@ -169,7 +142,7 @@ class App extends Component {
               "title": "Budget Tracker",
               "category": "An online/offline budget tracker app.",
               "image": "BudgetImg",
-              "url": "https://github.com/nwreese/Budget_Tracker"
+              "url": "https://guarded-ravine-68129.herokuapp.com/"
             }
           ]
         },
@@ -207,7 +180,7 @@ class App extends Component {
         <About data={this.state.resumeData.main}/>
         <Resume data={this.state.resumeData.resume}/>
         <Portfolio data={this.state.resumeData.portfolio}/>
-        <Contact data={this.state.resumeData.main}/>
+        {/* <Contact data={this.state.resumeData.main}/> */}
         <Footer data={this.state.resumeData.main}/>
       </div>
     );
