@@ -35,12 +35,12 @@ class App extends Component {
           "occupation": "Full Stack Web Developer",
           "description": "I'm also a musician and recent graduate from Case Western Reserve Universities coding boot camp with a certificate in Full Stack Web Development",
           "image": "profilePic.jpg",
-          "bio": "I am comfortable using Node, Express, JavaScript, React, API's, AJAX, HTML, CSS, React, Mongo, MySQL, PWA's and Handlebars. In my free time I enjoy writing and performing music live, both solo and with a band. I like to go kayaking, hiking and also enjoy shooting photos with my Polaroid. I am also a dog dad to a cockapoo named Lamb.",
+          "bio": "I am comfortable using Node, Express, JavaScript, React, API's, AJAX, HTML, CSS, Mongo, MySQL, PWA's and Handlebars. In my free time I enjoy writing and performing music live, both solo and with a band. I like to go kayaking, hiking and also enjoy shooting photos with my Polaroid. I am also a dog dad to a cockapoo named Lamb.",
           "contactmessage": "Please contact me via email or phone.",
           "email": "nwreese@kent.edu",
           "phone": "330-388-4965",
           "address": {
-            "street": "(378 E Cassell Ave)",
+            "street": "",
             "city": "Barberton",
             "state": "(Ohio)",
             "zip": "(44203)"
@@ -96,7 +96,7 @@ class App extends Component {
               "company": "On Call Catering",
               "title": "Cold foods manager",
               "years": "March 2014 - March 2020",
-              "description": "Was responsible for prep as well as cold food storage and ordering."
+              "description": "Started at prep and worked my way up to a managerial position in charge of cold foods ordering and storage."
             }
                  ]
         },
@@ -125,6 +125,12 @@ class App extends Component {
               "category": "Allows user to view and track threir daily workouts",
               "image": "DashboardImg",
               "url": "https://github.com/nwreese/Workout-Tracker"
+            },
+            {
+              "title": "SLICE Catering",
+              "category": "A React based website for my friend Chef Tig",
+              "image": "sliceImg",
+              "url": "https://cheftig.com/#/"
             },
             {
               "title": "Work Day Scheduler",

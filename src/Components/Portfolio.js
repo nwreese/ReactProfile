@@ -9,12 +9,14 @@ import EmployeeImg from '../images/portfolio/employee_directory4.png';
 import WorkImg from '../images/portfolio/workDay.png';
 import TreasureImg from '../images/portfolio/Treasure_Trove.jpg';
 import weWatchImg from '../images/portfolio/weWatchHome1.png';
+import sliceImg from '../images/portfolio/Slicecatering.jpg';
 
 const PortfolioImages = {
   AreWeThereYetImg: AreWeThereYetImg,
   BudgetImg: BudgetImg,
   DashboardImg: DashboardImg,
   EmployeeImg: EmployeeImg,
+  sliceImg: sliceImg,
   WorkImg: WorkImg,
   TreasureImg: TreasureImg,
   weWatchImg: weWatchImg
@@ -27,7 +29,7 @@ class Portfolio extends Component {
       var projects = this.props.data.projects.map(function(projects){
         var projectImage = './images/portfolio/'+projects.image;
         return <div key={projects.title} className="columns portfolio-item">
-           <div className="portfolio-wrap">
+           <div className="columns portfolio-wrap">
             <a href={projects.url} title={projects.title}>
                <img alt={projects.title} src={PortfolioImages[projects.image]} />
                <div className="overlay">
@@ -63,6 +65,9 @@ const employee = () => {
 const budget = () => {
   window.location.href="https://github.com/nwreese/Workout-Tracker"
 }
+const slice = () => {
+  window.location.href="https://github.com/nwreese/SLICE"
+}
     return (
       <section id="portfolio">
 
@@ -81,9 +86,11 @@ const budget = () => {
                 {projects}
             </div>
             <div>
+            <button className="slice-btn"onClick={slice}>SLICE Catering</button>
             <button className="schedule-btn"onClick={schedule}>Work Day Scheduler</button>
             <button className="employee-btn"onClick={employee}>Employee Directory</button>
             <button className="budget-btn"onClick={budget}>Budget Tracker</button>
+
             </div>
           </div>
       </div>

@@ -1,5 +1,5 @@
 .treasure-btn {
-margin-left: 10vw;
+margin-left: 8vw;
 }
 
 .awty-btn {
@@ -10,7 +10,7 @@ margin-left: 10vw;
 }
 
 .schedule-btn {
-    margin-left: 17vw;
+    margin-left: 5vw;
 }
 
 .employee-btn {
@@ -19,4 +19,12 @@ margin-left: 10vw;
 
 .budget-btn {
     margin-left: 4vw;
+}
+
+.slice-btn {
+    margin-left: 2vw;
+}
+
+.we-btn {
+    margin-left: 3vh;
 }
